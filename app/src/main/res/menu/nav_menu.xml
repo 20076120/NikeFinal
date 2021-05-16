@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<item
+    android:id="@+id/item1"
+    android:title="Previous Sales"
+    android:icon="@drawable/nike_square"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="My Bids"
+        android:icon="@drawable/nike_square"/>
+    <item
+        android:id="@+id/item3"
+        android:title="About Us"
+        android:icon="@drawable/nike_square"/>
+    <item
+        android:id="@+id/item4"
+        android:title="Sign Out"
+        android:icon="@drawable/nike_square"/>
+
+</menu>

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ie.wit.activities.Shop">
+
+    <item
+        android:id="@+id/action_shop"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="never" />
+</menu>

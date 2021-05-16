@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "993181366264",
+    "firebase_url": "https://nikeresells-default-rtdb.firebaseio.com",
+    "project_id": "nikeresells",
+    "storage_bucket": "nikeresells.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993181366264:android:5fcbb1f2255419c688480d",
+        "android_client_info": {
+          "package_name": "ie.wit.nikeresell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993181366264-d5mff7c8lgbqg3gq34vo988m6cm7017q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ie.wit.nikeresell",
+            "certificate_hash": "31390548e3d07071d25565e414bd2a9281376425"
+          }
+        },
+        {
+          "client_id": "993181366264-mscq2574m9ogjphvq4a7jh36vvfl807s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcRR_EH4DPEv4DSt7_4Ea-Bbjzbrm8X8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993181366264-mscq2574m9ogjphvq4a7jh36vvfl807s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

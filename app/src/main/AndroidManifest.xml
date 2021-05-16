@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ie.wit.nikeresell">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="AIzaSyD4Bf9CJqezh-gGoRjcyI1QM9UP1gYf-1o" />
+
+    <application
+        android:name=".main.ShopApp"
+        android:allowBackup="true"
+        android:icon="@drawable/nike_square"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/nike_square"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NikeResell">
+        <activity android:name=".activities.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.Shop">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.PreviousWinners" />
+        <activity android:name=".activities.aboutus" />
+        <activity android:name=".activities.PreviousWinnersPage2" />
+        <activity android:name=".activities.PreviousWinnersPage3" />
+        <activity android:name=".activities.PreviousWinnersPage4" />
+        <activity android:name=".activities.Purchases" />
+    </application>
+
+</manifest>
